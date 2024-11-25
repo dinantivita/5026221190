@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+}
+
+h1 {
+    color: #C89124;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.btn-brown {
+    background-color: #80471c; 
+    color: #f9f9f9; 
+    border-radius: 30px;
+    border: 2px solid #80471c; 
+    padding: 17px; 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 13px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+    box-sizing: border-box; 
+    flex-grow: 1;
+    gap: 115px;
+}
+
+.btn-brown:hover {
+    background-color: #f9f9f9; 
+    color: #80471c; 
+    border: 2px solid #80471c;
+}
+
+
+
+.btn-brown .dots {
+    margin-left: 40px; 
+    font-size: 13px;
+    transition: color 0.3s ease; 
+    color: #a98366
+}
+
+.btn-brown:hover .dots {
+    color: #80471c; 
+}
+
+
+
+.icon-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+
+.icon-container a {
+    margin: 0 10px; 
+    text-decoration: none;
+}
+
+.icon-container svg {
+    width: 30px; 
+    height: 30px;
+    fill: #C89124; 
+    transition: fill 0.3s ease;
+}
+
+.icon-container a:hover svg {
+    transform: scale(1.1);;
+}
+
+
+.header {
+    position: relative;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.left-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #afafaf; 
+    border-radius: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    transition: background-color 0.3s ease; 
+}
+
+.left-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.left-icon svg {
+    width: 25px;
+    height: 25px;
+    fill: #f9f9f9;
+    transition: transform 0.3s ease, fill 0.3s ease; 
+}
+
+.left-icon:hover {
+    background-color: #c6c6c6;  
+}
+
+.left-icon a:hover svg {
+    transform: scale(1.1); 
+    fill: #ffffff; 
+}
+
+
+.right-icon {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    width: 40px;
+    height: 40px;
+    background-color: #afafaf; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    transition: background-color 0.3s ease; 
+}
+
+.right-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.right-icon svg {
+    width: 10px;
+    height: 10px;
+    fill: #f9f9f9;
+    transition: transform 0.3s ease, fill 0.3s ease; 
+}
+
+.right-icon:hover {
+    background-color: #c6c6c6; 
+}
+
+.right-icon a:hover svg {
+    transform: scale(1.1); 
+    fill: #ffffff; 
+}
+
+

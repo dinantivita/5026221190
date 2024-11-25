@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(156, 63, 99);
+    font-size: 38px;
+}
+a:link {
+  text-decoration: none;
+  color :rgb(95, 95, 165) ;
+}
+
+a:visited {
+text-decoration: none;
+color :rgb(95, 95, 165) ;
+}
+
+a:hover {
+    font-size:larger;
+    color: aquamarine;
+    text-decoration:underline
+}
+
+.headingmerah{
+    color:rgb(255, 0, 0) ; 
+}
+
+.parratakanan {
+    text-align: right;
+}
+
+.partengah {
+    text-align: center;
+}
+
+.rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+  }
