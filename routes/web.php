@@ -49,3 +49,10 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiDBController@update')
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiDBController@hapus');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiDBController@cari');
 
+Route::get('/pegawai/tumbuhan','App\Http\Controllers\TumbuhanController@tumbuhan');
+Route::get('tumbuhan/tambahtumbuhan','App\Http\Controllers\TumbuhanController@tambahtumbuhan');
+Route::post('tumbuhan/storetumbuhan','App\Http\Controllers\TumbuhanController@storetumbuhan');
+Route::get('tumbuhan/edittumbuhan/{id}','App\Http\Controllers\TumbuhanController@edittumbuhan');
+Route::post('tumbuhan/updatetumbuhan','App\Http\Controllers\TumbuhanController@updatetumbuhan');
+Route::get('tumbuhan/hapustumbuhan/{id}','App\Http\Controllers\TumbuhanController@hapustumbuhan');
+Route::get('tumbuhan/caritumbuhan','App\Http\Controllers\TumbuhanController@caritumbuhan');

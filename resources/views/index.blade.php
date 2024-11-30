@@ -4,6 +4,7 @@
 
 @section('link1')
 	<a href="/pegawai/tambah"class="btn btn-primary"> + Tambah Pegawai Baru</a>
+    <a href="/pegawai/tumbuhan"class="btn btn-primary"> Tumbuhan </a>
 @endsection
 
 @section('konten')

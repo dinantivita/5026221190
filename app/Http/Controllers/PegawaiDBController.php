@@ -95,5 +95,4 @@ public function cari(Request $request)
 		return view('index',['pegawai' => $pegawai]);
 
 	}
-
 }
