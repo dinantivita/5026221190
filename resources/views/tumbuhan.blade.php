@@ -34,7 +34,13 @@
 		<tr>
 			<td>{{ $t->namatumbuhan }}</td>
 			<td>{{ $t->jumlahtumbuhan }}</td>
-			<td>{{ $t->tersedia }}</td>
+            <td>
+                @if ( $t->tersedia == 'Y')
+                    <i class="fa-solid fa-check text-success"></i>
+                @else
+                    <i class="fa-solid fa-minus text-danger"></i>
+                @endif
+            </td>
 
 			<td>
 				<a href="/tumbuhan/edittumbuhan/{{ $t->kodetumbuhan }}"class="btn btn-danger"><i class="fa-solid fa-pen-to-square"></i></a>

@@ -12,6 +12,25 @@
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-sm bg-light">
+
+        <div class="container-fluid">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/pegawai">Pegawai</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pegawai/tumbuhan">Tumbuhan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">EAS</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
 <div class="container">
     <h2>Dinanti Vita Rachman - 5026221190 </h2>
     <h3>@yield('tulisan1')</h3>
