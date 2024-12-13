@@ -56,3 +56,8 @@ Route::get('tumbuhan/edittumbuhan/{id}','App\Http\Controllers\TumbuhanController
 Route::post('tumbuhan/updatetumbuhan','App\Http\Controllers\TumbuhanController@updatetumbuhan');
 Route::get('tumbuhan/hapustumbuhan/{id}','App\Http\Controllers\TumbuhanController@hapustumbuhan');
 Route::get('tumbuhan/caritumbuhan','App\Http\Controllers\TumbuhanController@caritumbuhan');
+
+Route::get('/keranjang','App\Http\Controllers\KeranjangController@keranjang');
+Route::get('/keranjang/beli','App\Http\Controllers\KeranjangController@beli');
+Route::post('keranjang/store','App\Http\Controllers\KeranjangController@store');
+Route::get('keranjang/batal/{id}','App\Http\Controllers\KeranjangController@batal');
