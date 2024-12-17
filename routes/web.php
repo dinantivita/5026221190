@@ -61,3 +61,8 @@ Route::get('/keranjang','App\Http\Controllers\KeranjangController@keranjang');
 Route::get('/keranjang/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('keranjang/store','App\Http\Controllers\KeranjangController@store');
 Route::get('keranjang/batal/{id}','App\Http\Controllers\KeranjangController@batal');
+
+Route::get('/indexkaryawan','App\Http\Controllers\karyawan1Controller@karyawan1');
+Route::get('/indexkaryawan/tambahdata','App\Http\Controllers\karyawan1Controller@tambahdata');
+Route::post('indexkaryawan/store','App\Http\Controllers\karyawan1Controller@store');
+Route::get('indexkaryawan/hapusdata/{id}','App\Http\Controllers\karyawan1Controller@hapusdata');
